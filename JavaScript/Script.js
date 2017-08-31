@@ -10,6 +10,20 @@ var images = [
 
 var index = 0;
 
+function anim() {
+    $('.clients').animate('tile', {
+        "duration": 2000,
+        "rows": 12,
+        "cols": 8,
+        "effect": "flyIn",
+        "fillMode": "backwards"
+    });
+}
+
+anim();
+
+
+
 // ************************ Funciones de carga
 
 $(document).ready(function(){

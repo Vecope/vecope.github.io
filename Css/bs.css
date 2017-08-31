@@ -1,0 +1,38 @@
+@font-face {
+    font-family: SanFrancisco;
+    src: url(../Data/fonts/SanFrancisco.ttf);
+}
+
+body {
+    padding: 0 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.title {
+    color: Black;
+    text-shadow: 5px 5px 15px black;
+    font-family: 'SanFrancisco';
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+
+
+.col-md-8,
+.col-md-6,
+.col-md-4,
+.col-md-2{
+    min-height: 20px;
+    border: purple solid 5px;
+    border-radius: 15px;
+}

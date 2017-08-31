@@ -58,6 +58,17 @@ hr {
     background: #fff;
 }
 
+footer{
+    line-height:calc(15vh - 50px);
+    height: calc(15vh - 50px);
+    background-color: black;
+    color: white;
+    fontsize: 1em;
+    font-family: 'Clinton';
+    text-align: right;
+    padding: 0 60px;
+
+}
 /************************ Fuentes ************************/
 
 @font-face {
@@ -306,6 +317,12 @@ project__card {
     font-size: 1.3em;
 }
 
+
+.skills {
+    padding: 5% 5%;
+
+}
+
 a.lgbtn:hover,
 a.lgbtn:active {
     border-bottom: white solid 1px;
@@ -336,7 +353,7 @@ a.smbtn:active {
 
 #skills {
 
-    background-image: url("../Data/imgs/skills.jpg");
+    background-image: radial-gradient(transparent, rgba(50, 50, 50, 0.9)), url("../Data/imgs/skills.jpg");
     padding: .5vw;
     font-size: 0;
     display: -ms-flexbox;
@@ -349,7 +366,8 @@ a.smbtn:active {
 }
 
 #portfolio {
-    background-color: red;
+    background-image: radial-gradient(transparent, rgba(50, 50, 50, 0.8)), url("../Data/imgs/pc.jpg");
+    height: 85vh;
 }
 
 #contact {
@@ -379,10 +397,6 @@ a.smbtn:active {
 
 }
 
-.skills {
-    padding: 5% 5%;
-
-}
 
 #wd {
     font-style: italic;
@@ -394,15 +408,28 @@ a.smbtn:active {
     height: 100%;
 }
 
+#clients{
+    margin: auto;
+    width: 50%;
+}
+
 /************************ Media Queries ************************/
 /* Teléfonos */
 @media screen and (min-width: 300px) {
 
     section {
         position: relative;
-        min-height: 100%;
+        min-height: 85vh;
         width: 100vw;
 
+    }
+
+    #home{
+        height: 100vh;
+    }
+
+    #skills{
+        height: 100vh;
     }
 
 }
@@ -416,7 +443,7 @@ a.smbtn:active {
 
     section {
         position: relative;
-        min-height: 100vh;
+        min-height: 85vh;
         width: 100vw;
 
     }
@@ -581,7 +608,8 @@ a.smbtn:active {
 @media only screen and (orientation: landscape) {
 
     .title {
-        margin-bottom: 7%;
+        padding: 3rem 0 3rem 0;
+        margin:  0 auto 1em auto;
     }
 
     #hello {
