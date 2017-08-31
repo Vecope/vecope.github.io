@@ -477,7 +477,8 @@ a.smbtn:active {
     }
 
 }
-
+ 
+/* Esto deberia ir abajo con lo de portatiles para mayor agrupacion */
 /* Mayor resolución */
 @media only screen and (min-width: 1200px) {
     header {
@@ -604,6 +605,7 @@ a.smbtn:active {
 
 }
 
+/* Seria bueno definir para que tamaños suele ser responsive */
 @media only screen and (orientation: landscape) {
 
     .title {
