@@ -1,12 +1,12 @@
 // ************************ Variables
 
-var images = [
-
-    '/Data/imgs/bg.jpg',
-    '/Data/imgs/bg2.jpg',
-    '/Data/imgs/bg3.jpg',
-
-];
+// var images = [
+//
+//     '/Data/imgs/bg.jpg',
+//     '/Data/imgs/bg2.jpg',
+//     '/Data/imgs/bg3.jpg',
+//
+// ];
 
 var index = 0;
 
@@ -85,23 +85,23 @@ $(document).on("scroll", function() {
 
 // ************************ Juguetico de slider
 
-function change_up(){
+// function change_up(){
+//
+//     index = (index + 1 < images.length) ? index + 1 : 0;
+//
+//     $('#home').fadeOut(1000, function(){
+//
+//         $(this).css('background', 'black');
+//
+//         $(this).css('background', 'radial-gradient(transparent, rgba(0,0,0,0.9)), url('+ images[index]+')');
+//         $(this).css('background-size', 'cover');
+//         $(this).css('background-position', 'center');
+//
+//
+//         $(this).fadeIn(1000);
+//
+//     });
+// }
 
-    index = (index + 1 < images.length) ? index + 1 : 0;
-
-    $('#home').fadeOut(1000, function(){
-
-        $(this).css('background', 'black');
-
-        $(this).css('background', 'radial-gradient(transparent, rgba(0,0,0,0.9)), url('+ images[index]+')');
-        $(this).css('background-size', 'cover');
-        $(this).css('background-position', 'center');
-
-
-        $(this).fadeIn(1000);
-
-    });
-}
-
-setInterval(change_up, 4000);
+// setInterval(change_up, 4000);
 
